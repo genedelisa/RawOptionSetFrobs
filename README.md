@@ -1,13 +1,15 @@
 # RawOptionSetfrobs
 
-Swift 1 RawOptionSet frobs
+Swift 1 RawOptionSet frobs.
+
+The Swift 2 OptionSetType examples are in this [project](https://github.com/genedelisa/OptionSetTypeFrobs/).
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://en.wikipedia.org/wiki/MIT_License)
 
 
 ## Blog post for this example.
 
-[Blog post](http://www.rockhoppertech.com/blog/)
+[Blog post](http://www.rockhoppertech.com/blog/swift-2-optionsettype/)
 
 
 ## Bugs
