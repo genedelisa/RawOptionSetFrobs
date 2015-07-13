@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B051EA3B1B53CCC400654A75 /* Hoagie.swift in Sources */ = {isa = PBXBuildFile; fileRef = B051EA3A1B53CCC400654A75 /* Hoagie.swift */; };
+		B051EA3E1B53CE4900654A75 /* Hoagie.swift in Sources */ = {isa = PBXBuildFile; fileRef = B051EA3A1B53CCC400654A75 /* Hoagie.swift */; };
 		B068A1051B53CA2400E5A431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B068A1041B53CA2400E5A431 /* AppDelegate.swift */; };
 		B068A1071B53CA2400E5A431 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B068A1061B53CA2400E5A431 /* ViewController.swift */; };
 		B068A10A1B53CA2400E5A431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B068A1081B53CA2400E5A431 /* Main.storyboard */; };
 		B068A10C1B53CA2400E5A431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B068A10B1B53CA2400E5A431 /* Assets.xcassets */; };
-		B068A10F1B53CA2400E5A431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B068A10D1B53CA2400E5A431 /* LaunchScreen.storyboard */; };
 		B068A11A1B53CA2500E5A431 /* RawOptionSetTypeFrobsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B068A1191B53CA2500E5A431 /* RawOptionSetTypeFrobsTests.swift */; };
-		B068A1251B53CA2500E5A431 /* RawOptionSetTypeFrobsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B068A1241B53CA2500E5A431 /* RawOptionSetTypeFrobsUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,29 +24,20 @@
 			remoteGlobalIDString = B068A1001B53CA2400E5A431;
 			remoteInfo = RawOptionSetTypeFrobs;
 		};
-		B068A1211B53CA2500E5A431 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B068A0F91B53CA2400E5A431 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B068A1001B53CA2400E5A431;
-			remoteInfo = RawOptionSetTypeFrobs;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B051EA3A1B53CCC400654A75 /* Hoagie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hoagie.swift; sourceTree = "<group>"; };
+		B051EA3C1B53CD7C00654A75 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B068A1011B53CA2400E5A431 /* RawOptionSetTypeFrobs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RawOptionSetTypeFrobs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B068A1041B53CA2400E5A431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B068A1061B53CA2400E5A431 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B068A1091B53CA2400E5A431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B068A10B1B53CA2400E5A431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B068A10E1B53CA2400E5A431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B068A1101B53CA2400E5A431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B068A1151B53CA2500E5A431 /* RawOptionSetTypeFrobsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RawOptionSetTypeFrobsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B068A1191B53CA2500E5A431 /* RawOptionSetTypeFrobsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawOptionSetTypeFrobsTests.swift; sourceTree = "<group>"; };
 		B068A11B1B53CA2500E5A431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B068A1201B53CA2500E5A431 /* RawOptionSetTypeFrobsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RawOptionSetTypeFrobsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B068A1241B53CA2500E5A431 /* RawOptionSetTypeFrobsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawOptionSetTypeFrobsUITests.swift; sourceTree = "<group>"; };
-		B068A1261B53CA2500E5A431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,22 +55,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B068A11D1B53CA2500E5A431 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		B068A0F81B53CA2400E5A431 = {
 			isa = PBXGroup;
 			children = (
+				B051EA3C1B53CD7C00654A75 /* README.md */,
 				B068A1031B53CA2400E5A431 /* RawOptionSetTypeFrobs */,
 				B068A1181B53CA2500E5A431 /* RawOptionSetTypeFrobsTests */,
-				B068A1231B53CA2500E5A431 /* RawOptionSetTypeFrobsUITests */,
 				B068A1021B53CA2400E5A431 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,7 +73,6 @@
 			children = (
 				B068A1011B53CA2400E5A431 /* RawOptionSetTypeFrobs.app */,
 				B068A1151B53CA2500E5A431 /* RawOptionSetTypeFrobsTests.xctest */,
-				B068A1201B53CA2500E5A431 /* RawOptionSetTypeFrobsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,8 +84,8 @@
 				B068A1061B53CA2400E5A431 /* ViewController.swift */,
 				B068A1081B53CA2400E5A431 /* Main.storyboard */,
 				B068A10B1B53CA2400E5A431 /* Assets.xcassets */,
-				B068A10D1B53CA2400E5A431 /* LaunchScreen.storyboard */,
 				B068A1101B53CA2400E5A431 /* Info.plist */,
+				B051EA3A1B53CCC400654A75 /* Hoagie.swift */,
 			);
 			path = RawOptionSetTypeFrobs;
 			sourceTree = "<group>";
@@ -114,15 +97,6 @@
 				B068A11B1B53CA2500E5A431 /* Info.plist */,
 			);
 			path = RawOptionSetTypeFrobsTests;
-			sourceTree = "<group>";
-		};
-		B068A1231B53CA2500E5A431 /* RawOptionSetTypeFrobsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B068A1241B53CA2500E5A431 /* RawOptionSetTypeFrobsUITests.swift */,
-				B068A1261B53CA2500E5A431 /* Info.plist */,
-			);
-			path = RawOptionSetTypeFrobsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,24 +137,6 @@
 			productReference = B068A1151B53CA2500E5A431 /* RawOptionSetTypeFrobsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B068A11F1B53CA2500E5A431 /* RawOptionSetTypeFrobsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B068A12F1B53CA2500E5A431 /* Build configuration list for PBXNativeTarget "RawOptionSetTypeFrobsUITests" */;
-			buildPhases = (
-				B068A11C1B53CA2500E5A431 /* Sources */,
-				B068A11D1B53CA2500E5A431 /* Frameworks */,
-				B068A11E1B53CA2500E5A431 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B068A1221B53CA2500E5A431 /* PBXTargetDependency */,
-			);
-			name = RawOptionSetTypeFrobsUITests;
-			productName = RawOptionSetTypeFrobsUITests;
-			productReference = B068A1201B53CA2500E5A431 /* RawOptionSetTypeFrobsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -194,10 +150,6 @@
 						CreatedOnToolsVersion = 7.0;
 					};
 					B068A1141B53CA2500E5A431 = {
-						CreatedOnToolsVersion = 7.0;
-						TestTargetID = B068A1001B53CA2400E5A431;
-					};
-					B068A11F1B53CA2500E5A431 = {
 						CreatedOnToolsVersion = 7.0;
 						TestTargetID = B068A1001B53CA2400E5A431;
 					};
@@ -218,7 +170,6 @@
 			targets = (
 				B068A1001B53CA2400E5A431 /* RawOptionSetTypeFrobs */,
 				B068A1141B53CA2500E5A431 /* RawOptionSetTypeFrobsTests */,
-				B068A11F1B53CA2500E5A431 /* RawOptionSetTypeFrobsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -228,20 +179,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B068A10F1B53CA2400E5A431 /* LaunchScreen.storyboard in Resources */,
 				B068A10C1B53CA2400E5A431 /* Assets.xcassets in Resources */,
 				B068A10A1B53CA2400E5A431 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B068A1131B53CA2500E5A431 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B068A11E1B53CA2500E5A431 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B051EA3B1B53CCC400654A75 /* Hoagie.swift in Sources */,
 				B068A1071B53CA2400E5A431 /* ViewController.swift in Sources */,
 				B068A1051B53CA2400E5A431 /* AppDelegate.swift in Sources */,
 			);
@@ -264,15 +208,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B051EA3E1B53CE4900654A75 /* Hoagie.swift in Sources */,
 				B068A11A1B53CA2500E5A431 /* RawOptionSetTypeFrobsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B068A11C1B53CA2500E5A431 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B068A1251B53CA2500E5A431 /* RawOptionSetTypeFrobsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,11 +221,6 @@
 			target = B068A1001B53CA2400E5A431 /* RawOptionSetTypeFrobs */;
 			targetProxy = B068A1161B53CA2500E5A431 /* PBXContainerItemProxy */;
 		};
-		B068A1221B53CA2500E5A431 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B068A1001B53CA2400E5A431 /* RawOptionSetTypeFrobs */;
-			targetProxy = B068A1211B53CA2500E5A431 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -298,14 +230,6 @@
 				B068A1091B53CA2400E5A431 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B068A10D1B53CA2400E5A431 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B068A10E1B53CA2400E5A431 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -347,7 +271,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -386,7 +310,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -399,6 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RawOptionSetTypeFrobs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rockhoppertech.RawOptionSetTypeFrobs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,6 +335,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RawOptionSetTypeFrobs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rockhoppertech.RawOptionSetTypeFrobs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -440,30 +366,6 @@
 			};
 			name = Release;
 		};
-		B068A1301B53CA2500E5A431 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = RawOptionSetTypeFrobsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rockhoppertech.RawOptionSetTypeFrobsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = RawOptionSetTypeFrobs;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		B068A1311B53CA2500E5A431 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = RawOptionSetTypeFrobsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rockhoppertech.RawOptionSetTypeFrobsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = RawOptionSetTypeFrobs;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -483,6 +385,7 @@
 				B068A12B1B53CA2500E5A431 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B068A12C1B53CA2500E5A431 /* Build configuration list for PBXNativeTarget "RawOptionSetTypeFrobsTests" */ = {
 			isa = XCConfigurationList;
@@ -491,14 +394,7 @@
 				B068A12E1B53CA2500E5A431 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		B068A12F1B53CA2500E5A431 /* Build configuration list for PBXNativeTarget "RawOptionSetTypeFrobsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B068A1301B53CA2500E5A431 /* Debug */,
-				B068A1311B53CA2500E5A431 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
